@@ -14,5 +14,7 @@ import org.junit.runners.Suite.SuiteClasses;
         AppTest.class,
         IndividualCustomerTest.class
         })
+
+
 class TestSuite {
 }
