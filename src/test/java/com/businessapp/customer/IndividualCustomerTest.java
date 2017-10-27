@@ -1,4 +1,4 @@
-package com.businessapp;
+package com.businessapp.customer;
 
 import com.businessapp.model.IndividualCustomer;
 import org.junit.Before;
@@ -44,7 +44,7 @@ public class IndividualCustomerTest {
         IndividualCustomer c = new IndividualCustomer();
         String id = new String("2017");
         c.setId(id);
-        assertThat(c.getId()==id, is(false));
+        assertThat(c.getId()==id, is(true));
     }
 
 }
