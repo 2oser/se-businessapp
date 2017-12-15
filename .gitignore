@@ -6,3 +6,4 @@ info.txt
 src/main/java/com/businessapp/demo
 target
 .idea
+.DS_Store
