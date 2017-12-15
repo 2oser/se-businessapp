@@ -192,6 +192,7 @@ class CalculatorLogic implements CalculatorLogicIntf {
 				case "+": output = output + Double.parseDouble(numbers[x]); y++; break;
 				case "-": output = output - Double.parseDouble(numbers[x]); y++; break;
 				//case "*": output = output * Double.parseDouble(numbers[x]); y++; break;
+				//case "*": output = output * Double.parseDouble(numbers[x]); y++; break;
 				//case "/": output = output / Double.parseDouble(numbers[x]); y++; break;
 			}
 		}

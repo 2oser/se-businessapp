@@ -48,6 +48,7 @@ public interface CalculatorLogicIntf extends LogicIntf {
      * @param tok the next Token passed from the UI, CalculatorViewController.
      * 
      */
+
 	public void nextToken( Token tok );
 
 }
