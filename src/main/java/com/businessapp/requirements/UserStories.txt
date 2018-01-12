@@ -1,0 +1,66 @@
+Aufgaben zur Übung Software Engineering SE-1					      E1
+User Stories für Ausleihsystem, Punkte: 4								
+
+Name:	Nguyen Thi, Phuong Thao						Mat.-Nr.: S860341
+
+Geschäftskontext: Hundecafé
+
+Die folgenden Aufgaben sollen sich auf den von Ihren gewählten Geschäftskontext beziehen (z.B. Fahrradverleih, Autowerkstatt, Reisebüro, Tauschbörse, Fußballverein usw.).
+Sie können das Übungsblatt als Vorlage ausfüllen und abgeben.
+Scenario: Der Eigentümer oder Betreiber wünscht sich eine online-Lösung, mit der im jeweiligen Kontext geeignete Dinge an Kunden/Teilnehmer/Gäste gegen Gebühr ausgeliehen werden können. Beispiele sind Ausleihen von Spezialwerkzeugen einer Autowerkstatt über ein Wochenende, eine Flugzeug-Transportbox für ein Mountain Bike von einem Reisebüro oder asiatische Kochgeräte vom Bioladen.
+Der Eigentümer oder Betreiber möchte gern, dass ein Teil der zur Ausleihe angebotenen Dinge nur seinem Geschäft verbundenen Kunden angeboten werden (z.B. nur, wer eine Reise bei ihm gebucht hat, kann die Mountain Bike-Box ausleihen). Andere Artikel werden auch der Allgemeinheit angeboten.
+Zudem soll eine Reservierung möglich sein, damit Leihgegenstände ggf. rechtzeitig beschafft werden können, z.B. als Leihgabe von einem Drittanbieter. Falls ausgebucht und nicht beschaffbar, sollen sie für den Zeitraum als nicht mehr verfügbar markiert werden. Die Leihgebühr soll sich nach Artikel und Leihtagen berechnen und ebenfalls online bezahlbar sein. Für Geschäftskunden ist eine Rechnung mit Mehrwertsteuerausweis erforderlich. Abholung und Rückgabe sollen verfolgbar sein.
+
+____________________________________________________________________________
+
+Nennen Sie 5 Artikel, die in Ihrem Kontext für die Ausleihe sinnvoll sind.
+
+Spielzeug
+Transporttaschen, Transportboxen
+Fahrradanhänger
+Dogscooter für größere Hunde, Bike Trailers für Fahrräder
+Hundekostüme
+
+2. Benennen Sie die Stakeholder und Akteure, die in Ihrem Kontext eine Rolle spielen.
+
+Stakeholder (an individual, group, or organization, who may  affect or be affected by a project)  
+Auftraggeber (=Betreiber)
+Agentur, die die Software schreiben soll
+potenzielle Kunden: Hundebesitzer, Tierheime, Tiervereine
+
+Akteure (repräsentiert jemanden oder etwas, z.B. ein anderes System, das mit der Software Lösung während der Benutzung  interagiert)
+Manager (=Betreiber)
+Administrator: wartet Webseite, macht Updates im Sortiment
+Mitarbeiter: macht Produkte für Verleih fertig, nimmt sie nach Ausleihfrist wieder entgegen
+Besucher und Kunden: Hundebesitzer als Interessenten am / Kunden des Dienst(s)
+
+3. Geben Sie eine kurze Problemdefinition
+
+Das Problem ist, dass Hundebesitzer oftmals viele Fehlkäufe machen müssen bis sie Produkte finden, die ihren Haustieren gefallen. Davon betroffen sind besonders neue Haustierbesitzer, die das Tier noch nicht gut genug kennen. 
+Dadurch fallen Kosten für nicht verwendbares Tierzubehör, wie z.B. Spielzeug, an. 
+
+Auch von kostspieligen Gadgets für die Freizeitgestaltung, die nicht unbedingt regelmäßig in den Einsatz kommen, wendet man sich als Privatbesitzer ab. Das gleiche gilt für Produkte, wie Kostüme, die nur einmalig verwendet werden. Somit sind Freizeitaktivitäten für Besitzer und Tier sehr beschränkt.
+
+4. Formulieren Sie die wichtigsten Ziele der angestrebten Lösung: 		
+		
+Ziele sind es Kunden, die das Hundecafé besuchen, Tierzubehör auch außerhalb der Arbeitszeiten des Betriebs, gegen einen Ausleihpreis zur Verfügung zu stellen. Bei Gefallen ist der Erwerb von Produkten nach und während der Ausleihfrist auch möglich.
+ Weiterhin soll ein Online Shop eingerichtet werden, wo sich Interessenten das Angebot des Hundecafés ansehen und ein Kundenkonto einrichten können, um Reservationen oder direkte Käufe zu machen.
+Durch den Verleih sollen mehr Einnahmen erzielt werden, da so auch außerhalb der Werktage Geld eingenommen wird.
+
+5. Beschreiben Sie, was Sie in fiktiven Interviews mit den Stakeholder bzw. Akteuren als deren Wünsche oder Erwartungen an das Ausleihsystem erfahren haben. Verwenden Sie die Form von User Stories und versuchen Sie, das oben beschrieben Scenario abzudecken.
+Als Zielvorgabe sollten ca. 10-15 User Stories entstehen.
+
+#0001		Als Besucher möchte ich das gesamte Sortiment des Stores einsehen können 				und nach Produkten suchen können.
+#0002		Als Kunde möchte ich bestimmte Produkte markieren können, um später 				einzusehen.
+#0003		Als Kunde möchte ich Produkte frühzeitig reservieren können.
+#0004		Als Kunde möchte ich bequem online bezahlen können, z.B. mit Paypal.
+#0005		Als Kunde möchte ich, dass meine persönlichen Daten gesichert sind.
+#0006		Als Betreiber möchte ich, dass der Dienst jederzeit verfügbar ist.
+#0007		Als Betreiber möchte ich, dass mein Sortiment, d.h. die Verfügbarkeit von 				Produkten, aktuell ist.
+#0008		Als Administrator möchte ich das Sortiment ohne großen Aufwand verwalten 				können.
+#0009		Als Administrator möchte ich nicht aktive Kunden aus dem System löschen 				können.
+#0010		Als Mitarbeiter möchte ich Mahnung bei Überschreitung der Ausleihfrist 					verschicken können.
+
+
+6. Checken Ihre Aussagen zu 1. - 5. als Datei UserStories.txt im Verzeichnis requirements in Ihr git‐Repository ein.
+
