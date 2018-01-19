@@ -1,0 +1,261 @@
+﻿Lastenheft: Hundezubehöverleih, 12. Januar 2018
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Lastenheft: Hundezubehöverleih
+Autor: Phuong Thao Nguyen Thi
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Datum der Erstellung: 12. Januar 2018
+Datum des letzten Reviews: 19. Januar 2018
+Datum der letzten Veränderung: 12. Januar 2018
+
+
+
+
+________________
+
+
+Inhalt
+
+
+1. Vision und Ziele        2
+1.1. Problemstellung        2
+1.2. Zielstellung        2
+2. Rahmenbedingungen        3
+2.1. Stakeholder        3
+2.2. Zeitraum        3
+3. Kontext und Überblick        3
+3.1. Akteure        3
+3.2. User Stories        3
+4. Funktionale Anforderungen        3
+4.1. Use Cases        3
+4.2. Funktionalen Anforderungen        4
+4.3. Mögliche Fehlersituation        5
+5. Nichtfunktionale Anforderungen        5
+5.1. Quantitativer Systemanforderungen        5
+5.2. Qualitätsanforderungen        5
+5.3. Betriebsanforderungen        5
+6. Schnittstellen        5
+6.1. Schnittstellen zu Akteuren        5
+7. Lieferumfang        5
+7.1. Erwartungen zum Lieferumfang        5
+8. Abnahmekriterien        5
+9. Glossar        5
+
+
+
+
+
+
+
+
+________________
+
+
+
+
+1. Vision und Ziele
+
+
+1.1. Problemstellung
+Das Problem ist, dass Hundebesitzer oftmals viele Fehlkäufe machen müssen bis sie Produkte finden, die ihren Haustieren gefallen. 
+
+
+
+
+1.2. Zielstellung
+Ziel ist es Kunden, die das Hundecafé besuchen, Tierzubehör auch außerhalb der Arbeitszeiten des Betriebs, gegen einen Ausleihpreis zur Verfügung zu stellen.
+Bei Gefallen ist der Erwerb von Produkten nach und während der Ausleihfrist auch möglich.
+
+
+
+
+2. Rahmenbedingungen
+
+
+2.1. Stakeholder1
+Der Auftraggeber ist der Betreiber des Hundecafés, der Auftragnehmer die Softwareagentur, die das Projekt entgegen nimmt. An der Lösung Interessierte sind private Hundebesitzer oder Tiervereine, die ihren Tieren Artikel zur Verfügung stellen wollen.
+
+
+
+
+2.2. Zeitraum 
+Die Software soll Ende Juni 2019 zur Verfügung stehen und einen Online Store darstellen, der Kunden sich registrieren und Reservierungen sowie Zahlungen machen lässt.
+
+
+
+
+
+
+3. Kontext und Überblick
+
+
+
+
+3.1. Akteure2
+Akteure sind der Manager (= Betreiber), sowie Angestellte, die unter anderem den Store als Admins managen. Besucher und Kunden zählen auch zu den Akteuren dieses Problems.
+
+
+
+
+3.2. User Stories
+US#0001                Als Besucher möchte ich das gesamte Sortiment des Stores einsehen
+können.
+US#0002                Als Kunde möchte ich bestimmte Produkte markieren können, um
+später ein zu sehen.
+US#0003                Als Kunde möchte ich Produkte frühzeitig reservieren können.
+US#0004                Als Kunde möchte ich bequem online bezahlen können, z.B. mit
+Paypal.
+US#0005                Als Kunde möchte ich, dass meine persönlichen Daten gesichert sind.
+US#0006                Als Betreiber möchte ich, dass der Dienst jederzeit verfügbar ist.
+US#0007                Als Betreiber möchte ich, dass mein Sortiment, d.h. die Verfügbarkeit
+von Produkten, aktuell ist.
+US#0008                Als Administrator möchte ich das Sortiment ohne großen Aufwand
+verwalten können.
+US#0009                Als Administrator möchte ich nicht aktive Kunden aus dem System
+Löschen können.
+US#0010                Als Mitarbeiter möchte ich Mahnung bei Überschreitung der
+Ausleihfrist verschicken können.
+
+
+
+
+4. Funktionale Anforderungen
+
+
+4.1. Use Cases
+  
+
+
+
+4.2. Funktionalen Anforderungen
+FR#0001                Das System muss Besuchern erlauben, im Store zu browsen.
+(erfüllt Use Case UC#0001).
+FR#0002                Das System soll Kunden erlauben Reservierungen zu machen (erfüllt
+Use Case US#0002 und UC#0003).
+FR#0003                Das System soll Kunden erlauben, online zu bezahlen (erfüllt Use
+Case UC#0004).
+FR#0004                Das System muss die privaten Daten der Kunden genügend sichern
+(erfüllt Use Case UC#0005).
+FR#0005                Das System soll jederzeit verfügbar sein (erfüllt Use Case UC#0006).
+FR#0006                Das System muss den aktuellen Umfang des Betriebs widerspiegeln.
+                        (erfüllt Use Case UC#0007 und UC#0007).
+FR#0007                Das System soll es zulassen, dass der Admin Nutzer entfernen kann 
+(erfüllt Use Case UC#0009).
+FR#0008                Das System soll Kunden auf das Überschreiten von Ausleihfristen
+hinweisen (erfüllt Use Case UC#00010).
+
+
+                
+
+
+4.3. Mögliche Fehlersituation
+Das Tier könnte den Artikel so stark beschädigen, sodass er nicht mehr verwendbar ist. In diesem Fall soll das Produkt kostenpflichtig ersetzt werden. Beim Verleih sollen die Kunden darauf hingewiesen werden. 
+
+
+5. Nichtfunktionale Anforderungen
+5.1. Quantitativer Systemanforderungen
+Es werden mindestens 500 Nutzer erwartet. Das System soll in einer Stunde 50 Bestellungen verarbeiten können. Das Sortiment soll jederzeit mindestens 60 verschiedene Artikel umfassen.
+
+
+5.2. Qualitätsanforderungen
+Nutzerdaten und Transaktionen sind geschützt. 
+Der Dienst soll mindestens zu 95% der Zeit verfügbar sein, d.h. an maximal an 17 Tagen im Jahr nicht erreichbar sein. 
+Die Reaktionszeit der Webseite soll in 90% der Fällen unter 200ms liegen.
+Das Sortiment soll nach Bedarf erweitert oder reduziert werden können. Die Mindestanzahl der Produkte soll jederzeit gegeben sein.
+
+
+5.3. Betriebsanforderungen
+Der Dienst soll von einem Mitarbeiter des Cafés verwaltet werden können und online sowohl von Betreiber als auch Kunden jederzeit erreichbar sein sollen. Die Website soll auch für mobile devices kompatibel sein.
+
+
+________________
+6. Schnittstellen
+
+
+6.1. Schnittstellen zu Akteuren
+Der Online Store ist die Schnittstelle, die den Kunden den Dienst zur Verfügung stellt.
+
+
+7. Lieferumfang
+
+
+7.1. Erwartungen zum Lieferumfang
+Im Lieferumfang befinden sich Artikel, die sich der Kunde ausgesucht hat, sowie der neueste Katalog des Betriebs und ein Ausleihschein. Der Schein datiert welche Produkte für welchen Zeitraum verliehen werden und besitzt eine Order Number, damit der Status festgehalten werden kann.
+
+
+8. Abnahmekriterien
+Die Software läuft stabil und muss alle geforderten und vereinbarten Leistungen aufweisen. Die nichtfunktionalen Anforderungen müssen erfüllt sein.
+
+
+9. Glossar
+
+
+Stakeholder1 
+* “an individual, group, or organization, who may  affect or be affected by a project”
+* Betreiber, Investoren, Softwareentwickler
+
+
+Akteure2
+* “an individual, group, or organization, who interact with a finale project solution”
+* Besucher, Betreiber, Mitarbeiter, Kunden,
